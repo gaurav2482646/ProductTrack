@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020817150439",
+    "firebase_url": "https://producttrack-59149.firebaseio.com",
+    "project_id": "producttrack-59149",
+    "storage_bucket": "producttrack-59149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020817150439:android:9de53195f4c222a4",
+        "android_client_info": {
+          "package_name": "com.gaurav.producttrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020817150439-m8c9602in3vu5hlq86nlnr1s1decqog4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gaurav.producttrack",
+            "certificate_hash": "d9a45b9cdaafc70b58426efd9cac0d917844385e"
+          }
+        },
+        {
+          "client_id": "1020817150439-sscvof7btvlrgff0euntcbbd48kfnb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXpKaz2Zz9Ptks34yJvfxdeYMxvtHPOcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020817150439-sscvof7btvlrgff0euntcbbd48kfnb9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

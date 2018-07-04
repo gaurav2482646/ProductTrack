@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+    <item  android:id="@+id/add_ad_m"
+        android:title="Add Item"/>
+    <item  android:id="@+id/view_ads_m"
+        android:title="View Item"/>
+
+</menu>

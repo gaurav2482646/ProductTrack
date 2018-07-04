@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.kochartech.antitheft.xius.user.LoginOrRegisterActivity">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="26dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="48dp"
+                android:background="#59d58d" />
+
+            <TextView
+                android:id="@+id/headTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="Product Track"
+                android:textColor="#4c565f"
+                android:textSize="32sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="26dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:background="#59d58d" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/linearlayoutloginorregister"
+            android:layout_alignStart="@+id/linearlayoutloginorregister"
+            android:layout_below="@+id/LinearLayoutTitle"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerInside"
+            android:src="@android:drawable/star_big_on" />
+
+        <LinearLayout
+            android:id="@+id/linearlayoutloginorregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonTry"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:elevation="3dp"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:padding="12dp"
+                android:tag="login"
+                android:text="EXISTING USER"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Or" />
+
+            <Button
+                android:id="@+id/buttonRegister"
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:onClick="onButtonClick"
+                android:padding="12dp"
+                android:tag="register"
+                android:text="Register"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
